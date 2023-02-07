@@ -1,0 +1,2 @@
+create table tblcourse (course_id bigserial not null, description varchar(255), name varchar(255), primary key (course_id))
+create table tblstudent (student_id bigserial not null, bday varchar(255), course varchar(255), email varchar(255), first_name varchar(255), last_name varchar(255), level integer not null, primary key (student_id))
